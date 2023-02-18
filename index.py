@@ -23,4 +23,4 @@ def ÖA():
     return render_template("Özdemir Asaf.html")
 
 
-
+app.run(host="localhost", port=5000)
