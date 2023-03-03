@@ -8,12 +8,12 @@ def index():
     return render_template("index.html")
 
 
-@app.route('/nazımhikmet')
+@app.route("/nazımhikmet")
 def NH():
     return render_template("Nazım Hikmet.html")
 
 
-@app.route('/orhanveli')
+@app.route("/orhanveli")
 def OV():
     return render_template("Orhan Veli.html")
 
