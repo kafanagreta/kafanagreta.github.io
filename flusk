@@ -8,7 +8,7 @@ def index():
     return render_template("index.html")
 
 
-@app.route("/nazımhikmet")
+@app.route("/templates/nazımhikmet")
 def NH():
     return render_template("Nazım Hikmet.html")
 
